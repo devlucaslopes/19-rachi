@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@600&display=swap");
+
+:root {
+  --primary: #0f9afe;
+  --white: #fff;
+  --white-200: #eff8ff;
+  --gray: #6e7275;
+  --gray-light: #dbdbdb;
+  --gray-200: #293145;
+
+  --max-width: 1170px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  color: var(--gray-200);
+}
+
+a,
+p,
+span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
