@@ -1,0 +1,23 @@
+.download-app-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-app-wrapper > img {
+  width: 400px;
+  height: 400px;
+}
+
+.download-app-content {
+  max-width: 600px;
+}
+
+.download-app-content p {
+  max-width: 444px;
+  margin: 24px 0 32px 0;
+}
+
+.buttons-wrapper a:first-child {
+  margin-right: 32px;
+}
