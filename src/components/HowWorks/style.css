@@ -1,0 +1,27 @@
+.how-works-content h2 {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.how-works-content ul {
+  display: flex;
+  gap: 130px;
+}
+
+.how-works-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-works-item img {
+  width: 57px;
+  height: 57px;
+  margin-bottom: 32px;
+}
+
+.how-works-item h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}

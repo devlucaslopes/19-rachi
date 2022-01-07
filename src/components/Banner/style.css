@@ -1,11 +1,4 @@
-.main-wrapper {
-  width: 100%;
-  background-color: var(--white-200);
-}
-
 .main-content {
-  max-width: var(--max-width);
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 132px;

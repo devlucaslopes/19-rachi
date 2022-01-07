@@ -28,6 +28,10 @@ h6 {
   color: var(--gray-200);
 }
 
+h2 {
+  font-size: 40px;
+}
+
 a,
 p,
 span {
