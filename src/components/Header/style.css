@@ -22,4 +22,9 @@ nav ul {
 .header-wrapper a {
   font-weight: 500;
   font-size: 18px;
+  transition: color 200ms ease-in-out;
+}
+
+.header-wrapper a:hover {
+  color: var(--primary);
 }

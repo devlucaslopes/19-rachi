@@ -1,0 +1,57 @@
+.plan-card {
+  background: var(--white-200);
+  padding: 32px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.plan-card h5 {
+  font-size: 24px;
+}
+
+.plan-card p {
+  font-size: 18px;
+}
+
+.price {
+  max-width: 146px;
+  height: 39px;
+  margin: 64px auto;
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--gray-200);
+  position: relative;
+  line-height: 39px;
+}
+
+.price::before {
+  content: "R$";
+  line-height: 20px;
+  font-size: 20px;
+  position: absolute;
+  left: 14px;
+  top: 0;
+}
+
+.price::after {
+  content: "/mês";
+  line-height: 20px;
+  font-size: 20px;
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+}
+
+.plan-card button {
+  margin-top: 64px;
+}
+
+div.darken {
+  background: var(--gray-200);
+}
+
+div.darken > h5,
+div.darken > .price {
+  color: var(--white);
+}
